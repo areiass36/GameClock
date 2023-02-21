@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Run",
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": "run"
+        }
+    ]
+}

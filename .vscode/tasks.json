@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "clean",
+            "command": "rm -f game.gb",
+            "type": "shell"
+        },
+        {
+            "label": "build",
+            "dependsOn": "clean",
+            "command": "${config:compiler} -o game.gb src/*.c",
+            "type": "shell",
+        },
+        {
+            "label": "run",
+            "dependsOn": "build",
+            "command": "gbc game.gb",
+            "type": "shell"
+        }
+    ]
+}
