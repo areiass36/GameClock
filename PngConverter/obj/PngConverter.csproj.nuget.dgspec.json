@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/barretoareias/Studies/gameboy/GameClock/PngConverter/PngConverter.csproj": {}
+  },
+  "projects": {
+    "/Users/barretoareias/Studies/gameboy/GameClock/PngConverter/PngConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/barretoareias/Studies/gameboy/GameClock/PngConverter/PngConverter.csproj",
+        "projectName": "PngConverter",
+        "projectPath": "/Users/barretoareias/Studies/gameboy/GameClock/PngConverter/PngConverter.csproj",
+        "packagesPath": "/Users/barretoareias/.nuget/packages/",
+        "outputPath": "/Users/barretoareias/Studies/gameboy/GameClock/PngConverter/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/barretoareias/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/barretoareias/.asdf/installs/dotnet/6.0.403/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

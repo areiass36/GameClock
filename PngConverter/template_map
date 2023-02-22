@@ -1,0 +1,5 @@
+// Tiles   : [[MAP_SIZE]]
+
+const unsigned char [[TILE_MAP_NAME]][] = {
+    [[TILE_MAP]]
+};

@@ -1,10 +1,21 @@
 {
     "configurations": [
         {
-            "name": "Run",
+            "name": "Run game",
             "type": "node",
             "request": "launch",
-            "preLaunchTask": "run"
-        }
+            "preLaunchTask": "run-game",
+        },
+        {
+            "name": "Run converter",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build converter",
+            "program": "${workspaceFolder}/PngConverter/bin/Debug/net6.0/PngConverter.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/PngConverter",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
     ]
 }

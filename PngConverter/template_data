@@ -1,0 +1,5 @@
+// Tiles   : [[NUMBER_TILES]]
+
+const unsigned char [[TILE_DATA_NAME]][] = {
+	[[TILE_DATA]]
+};

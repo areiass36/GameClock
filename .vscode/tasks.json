@@ -2,19 +2,37 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "clean",
+            "label": "build converter",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/PngConverter/PngConverter.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "clean-game",
             "command": "rm -f game.gb",
             "type": "shell"
         },
+        /*{
+            "label": "build-sprites",
+            "command": "dotnet ${workspaceFolder}/PngConverter/bin/Debug/net6.0/PngConverter.dll",
+            "dependsOn": "clean-game",
+            "type": "shell"
+        },*/
         {
-            "label": "build",
-            "dependsOn": "clean",
+            "label": "build-game",
+            "dependsOn": "clean-game",
             "command": "${config:compiler} -o game.gb src/*.c",
             "type": "shell",
         },
         {
-            "label": "run",
-            "dependsOn": "build",
+            "label": "run-game",
+            "dependsOn": "build-game",
             "command": "gbc game.gb",
             "type": "shell"
         }

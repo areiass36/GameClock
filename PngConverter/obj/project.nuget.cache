@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/+dq+gfu9ppMROA7O00a2WWjoMEK9y+6jtQv2vxko+T5I3HEjNGwCUsVfouAmMEgG/7JCr1rHbr9MoRqBiPqKQ==",
+  "success": true,
+  "projectFilePath": "/Users/barretoareias/Studies/gameboy/GameClock/PngConverter/PngConverter.csproj",
+  "expectedPackageFiles": [
+    "/Users/barretoareias/.nuget/packages/microsoft.netcore.platforms/3.1.4/microsoft.netcore.platforms.3.1.4.nupkg.sha512",
+    "/Users/barretoareias/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/Users/barretoareias/.nuget/packages/system.drawing.common/4.7.2/system.drawing.common.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}
